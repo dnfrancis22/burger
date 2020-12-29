@@ -1,43 +1,46 @@
+/* sets the background color for the entire page */
 body{
   background-color: rgb(246, 205, 108);
 }
+/* styling for the hamburger image */
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  
 }
+/* styling for the main header */
 h1{
   text-align:center;
   margin-top: 20px;
   margin-bottom: 20px;
   color: red;
 }
-
+/* styling for the secondary headers */
 h2{
   text-align:center;
   margin-top: 20px;
   margin-bottom: 20px;
   color: red;
 }
-
+/* styling for the lists */
 li {
   padding: 5px;
   margin: 5px;
   background: rgb(255, 255, 255);
   list-style-type:none;
 }
-
-label {
-  font-weight: bold;
-}
+/* styling for the buttons */
 button{
   background-color: red;
   color: rgb(255, 255, 255);
   border-radius: 5px;
   border-color: rgb(246, 205, 108);
+}
+/* styling for the add a burger section */
+label {
+  font-weight: bold;
 }
 
 .create-form { 

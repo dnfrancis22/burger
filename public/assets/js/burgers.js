@@ -1,5 +1,6 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
+  // function that changes the burger to devoured when the devour button is clicked
   $(".change-devoured").on("click", function(event) {
     var id = $(this).data("id");
     var newDevoured = $(this).data("newdevoured");
@@ -27,7 +28,6 @@ $(function() {
 
     var newBurger = {
       burger_name: $("#bg").val().trim(),
-      // sleepy: $("[name=sleepy]:checked").val().trim()
     };
 
     // Send the POST request.
