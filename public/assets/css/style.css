@@ -1,19 +1,46 @@
+body{
+  background-color: rgb(246, 205, 108);
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+h1{
+  text-align:center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+h2{
+  text-align:center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: red;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #d7d9fa;
+  background: rgb(255, 255, 255);
+  list-style-type:none;
 }
 
-.label {
+label {
   font-weight: bold;
 }
-
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+button{
+  background-color: red;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border-color: rgb(246, 205, 108);
 }
 
-.form-group {
-  margin-bottom: 5px;
+.create-form { 
+  display: flex;
+  justify-content: center;
 }
